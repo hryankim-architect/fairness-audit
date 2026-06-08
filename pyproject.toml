@@ -1,7 +1,7 @@
 [project]
 name = "fairness-audit"
-version = "0.1.0"
-description = "Clean-room group-fairness audit: per-group selection-rate / TPR / FPR, demographic-parity and equalized-odds gaps with bootstrap CIs, and a group-threshold mitigation that surfaces the fairness/accuracy trade-off. Synthetic cohort with a tunable disparity; the methodology is the deliverable."
+version = "0.2.0"
+description = "Clean-room group-fairness audit: per-group selection-rate / TPR / FPR, demographic-parity and equalized-odds gaps with bootstrap CIs, and three mitigations (demographic-parity thresholds, equal-opportunity thresholds, per-group calibration) that surface the metric conflict and the fairness/accuracy trade-off. Synthetic cohort with a tunable disparity; the methodology is the deliverable."
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "H. Ryan Kim" }]

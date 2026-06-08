@@ -29,8 +29,10 @@ explicit about its limits is part of the point.
   appropriate is a normative, domain- and stakeholder-specific question this code
   does not answer. It surfaces trade-offs; it does not adjudicate them.
 - **Not a mitigation recommendation.** Group-specific thresholds can themselves be
-  legally or ethically contentious (disparate treatment). The mitigation here is an
-  illustrative post-processing method, not advice to deploy one.
+  legally or ethically contentious (disparate treatment), and per-group calibration
+  rewrites scores. The three mitigations here are illustrative post-processing
+  methods used to expose the metric conflict and trade-offs — not advice to deploy
+  any of them.
 - **Not statistically complete.** Bootstrap CIs quantify sampling noise on a toy
   cohort only; they do not cover measurement bias, label bias, or distribution
   shift — often the dominant real-world problems.
