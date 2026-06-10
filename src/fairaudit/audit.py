@@ -5,9 +5,9 @@ measurement is itself auditable: editing any earlier entry breaks the hash chain
 """
 from __future__ import annotations
 
-import os
 import hashlib
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
